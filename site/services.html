@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>示例企业 · 服务</title>
+<meta name="description" content="三页极简企业站演示 · 服务"/>
+<style>
+:root{--bg:#fff;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--brand:#2563eb}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,sans-serif;color:var(--ink);line-height:1.55}
+a{color:var(--brand);text-decoration:none}
+header{border-bottom:1px solid var(--line);padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{font-weight:800}.nav a{margin-left:14px;color:var(--muted)}.nav a.active{color:var(--ink);font-weight:600}
+main{max-width:900px;margin:0 auto;padding:36px 20px 56px}
+h1{margin:0 0 20px}.grid{display:grid;gap:14px}
+@media(min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+.card{border:1px solid var(--line);border-radius:12px;padding:16px}.card h3{margin:0 0 6px}.card p{margin:0;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">示例科技</div>
+<nav class="nav">
+<a href="index.html">首页</a>
+<a class="active" href="services.html">服务</a>
+<a href="contact.html">联系</a>
+</nav>
+</header>
+<main>
+<h1>服务 / 产品</h1>
+<div class="grid">
+<div class="card"><h3>方案咨询</h3><p>按你的业务边界给出可交付范围，不承诺空头效果。</p></div>
+<div class="card"><h3>快速上线</h3><p>三页结构固定，素材齐后 3–5 个工作日可预览。</p></div>
+<div class="card"><h3>基础 SEO</h3><p>标题、描述、关键词按业务填写，不含投流与保排名。</p></div>
+<div class="card"><h3>源码交付</h3><p>可交源码与简短说明，方便你后续自行改文案。</p></div>
+</div>
+</main>
+</body>
+</html>

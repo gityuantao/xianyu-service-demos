@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>示例企业 · 联系</title>
+<meta name="description" content="三页极简企业站演示 · 联系"/>
+<style>
+:root{--bg:#fff;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--brand:#2563eb}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,sans-serif;color:var(--ink);line-height:1.55}
+a{color:var(--brand);text-decoration:none}
+header{border-bottom:1px solid var(--line);padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{font-weight:800}.nav a{margin-left:14px;color:var(--muted)}.nav a.active{color:var(--ink);font-weight:600}
+main{max-width:640px;margin:0 auto;padding:36px 20px 56px}
+h1{margin:0 0 12px}p{color:var(--muted)}
+.box{margin-top:20px;border:1px solid var(--line);border-radius:12px;padding:16px}
+label{display:block;font-size:.85rem;margin:10px 0 4px}input,textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font:inherit}
+button{margin-top:14px;background:var(--brand);color:#fff;border:0;padding:10px 16px;border-radius:8px;font-weight:600}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">示例科技</div>
+<nav class="nav">
+<a href="index.html">首页</a>
+<a href="services.html">服务</a>
+<a class="active" href="contact.html">联系</a>
+</nav>
+</header>
+<main>
+<h1>联系我们</h1>
+<p>正式交付时这里换成你的微信、电话或表单后端。下面仅作版式演示。</p>
+<div class="box">
+<label>称呼</label><input placeholder="怎么称呼你"/>
+<label>需求</label><textarea rows="4" placeholder="一句话说明用途"></textarea>
+<button type="button" onclick="alert('演示表单，不会提交')">发送（演示）</button>
+</div>
+</main>
+</body>
+</html>
